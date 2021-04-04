@@ -1,2 +1,4 @@
 # IsBadBuy Classification Problem
 This repository contains my analysis of the [https://www.kaggle.com/c/DontGetKicked/data?select=training.csv](Don't Get Kicked!) Kaggle classification problem. The training data set contains 34 columns, one of which is the *IsBadBuy* column. This denotes our target, whether or not a car bought at an auction was a bad buy. This means that it is unable to be sold, and it can be because of a myriad of reasons (tampered odometer, poor condition, etc). In this analysis, we attempt to both predict whether or not a car is a bad buy and analyze the important features.
+
+The data set downloaded was the training.csv file found at the link noted above.
