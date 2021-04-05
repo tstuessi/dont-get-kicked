@@ -9,6 +9,8 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then /opt/conda/bin/conda env up
     && rm -rf /tmp/conda-tmp
 
 RUN pip install xgboost
+RUN pip install pandas-profiling
+RUN pip install scikit-plot
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
